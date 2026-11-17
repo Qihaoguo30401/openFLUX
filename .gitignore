@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+*.vtu
+*.vtk
+*.log
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz

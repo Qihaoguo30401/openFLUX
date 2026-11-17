@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openflux"
+version = "0.1.0"
+description = "3D nonlinear magnetostatic FEA for axial-flux permanent-magnet machines (NGSolve)"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "Qihao Guo"}]
+requires-python = ">=3.10"
+dependencies = ["ngsolve", "numpy"]
+
+[project.optional-dependencies]
+examples = ["matplotlib"]
+
+[tool.setuptools]
+packages = ["openflux"]
